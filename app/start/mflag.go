@@ -1,7 +1,7 @@
 package start
 
 import (
-	"github.com/lwmacct/250300-go-app-template/app"
+	"github.com/wangsendi/250514-s-mod/app"
 
 	"github.com/lwmacct/250300-go-mod-mflag/pkg/mflag"
 	"github.com/lwmacct/250300-go-mod-mlog/pkg/mlog"

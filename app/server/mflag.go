@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/lwmacct/250300-go-app-template/app"
+	"github.com/wangsendi/250514-s-mod/app"
 	"github.com/wangsendi/250514-s-mod/pkg/sgin"
 
 	"github.com/lwmacct/250300-go-mod-mflag/pkg/mflag"
@@ -24,10 +24,11 @@ func run(cmd *cobra.Command, args []string) {
 	defer mlog.Close()
 
 	// 启动gin服务
-	if err := sgin.New().
+	ginServer := sgin.New().
 		WithAddr(app.Flag.Server.ListenAddr).
-		WithMode("debug").Start(); err != nil {
+		WithMode("debug").
+		SetupRouter(SetupRouter)
+	if err := ginServer.Start(); err != nil {
 		mlog.Fatal(mlog.H{"msg": "gin server start failed", "error": err})
 	}
-
 }

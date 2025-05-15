@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lwmacct/250300-go-app-template/app"
-	"github.com/lwmacct/250300-go-app-template/app/client"
-	"github.com/lwmacct/250300-go-app-template/app/server"
-	"github.com/lwmacct/250300-go-app-template/app/start"
-	"github.com/lwmacct/250300-go-app-template/app/version"
+	"github.com/wangsendi/250514-s-mod/app"
+	"github.com/wangsendi/250514-s-mod/app/client"
+	"github.com/wangsendi/250514-s-mod/app/server"
+	"github.com/wangsendi/250514-s-mod/app/start"
+	"github.com/wangsendi/250514-s-mod/app/version"
 
 	"github.com/lwmacct/250300-go-mod-mflag/pkg/mflag"
 	"github.com/lwmacct/250300-go-mod-mlog/pkg/mlog"

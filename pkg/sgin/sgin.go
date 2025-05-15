@@ -59,3 +59,8 @@ func (s *Srv) Use(mws ...gin.HandlerFunc) {
 	s.middlewares = append(s.middlewares, mws...)
 	s.engine.Use(mws...)
 }
+
+func (s *Srv) SetupRouter(setupFunc func(*gin.Engine)) *Srv {
+	setupFunc(s.engine)
+	return s
+}
