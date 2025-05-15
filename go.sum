@@ -39,6 +39,8 @@ github.com/klauspost/cpuid/v2 v2.2.10/go.mod h1:hqwkgyIinND0mEev00jJYCxPNVRVXFQe
 github.com/knz/go-libedit v1.10.1/go.mod h1:MZTVkCWyz0oBc7JOWP3wNAzd002ZbM/5hgShxwh4x8M=
 github.com/leodido/go-urn v1.4.0 h1:WT9HwE9SGECu3lg4d/dIA+jxlljEa1/ffXKmRjqdmIQ=
 github.com/leodido/go-urn v1.4.0/go.mod h1:bvxc+MVxLKB4z00jd1z+Dvzr47oO32F/QSNjSBOlFxI=
+github.com/lwmacct/250300-go-app-template v0.0.0-20250512070005-8f06e9ddec1d h1:wxS8QADZwRVZaOIYh0tPSGN684ix8iOiLzkgs1pHGrY=
+github.com/lwmacct/250300-go-app-template v0.0.0-20250512070005-8f06e9ddec1d/go.mod h1:vBh8xipcP8u/Y8RVNdlV0YV7IXrpbVV/xO3sR2e+mRo=
 github.com/lwmacct/250300-go-mod-mflag v0.0.2 h1:/UUkt1VBeQFSSvjyKFmkyFnW1OBnq9WHYFEUoPoh6g8=
 github.com/lwmacct/250300-go-mod-mflag v0.0.2/go.mod h1:+KvqB9GAiil2fT73NOUdEhIU18lhHzJjQoXDPUbQ7fQ=
 github.com/lwmacct/250300-go-mod-mlog v0.0.1 h1:vpOYV4oTgLGcHvx3Px3/VfyXlyGSTHOXLYqX93x2uZA=

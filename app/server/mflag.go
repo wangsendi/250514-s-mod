@@ -2,7 +2,7 @@ package server
 
 import (
 	"github.com/lwmacct/250300-go-app-template/app"
-	"github.com/lwmacct/250300-go-app-template/pkg/sgin"
+	"github.com/wangsendi/250514-s-mod/pkg/sgin"
 
 	"github.com/lwmacct/250300-go-mod-mflag/pkg/mflag"
 	"github.com/lwmacct/250300-go-mod-mlog/pkg/mlog"

@@ -1,9 +1,10 @@
-module github.com/lwmacct/250300-go-app-template
+module github.com/wangsendi/250514-s-mod
 
 go 1.24.0
 
 require (
 	github.com/gin-gonic/gin v1.10.0
+	github.com/lwmacct/250300-go-app-template v0.0.0-20250512070005-8f06e9ddec1d
 	github.com/lwmacct/250300-go-mod-mflag v0.0.2
 	github.com/lwmacct/250300-go-mod-mlog v0.0.1
 	github.com/spf13/cobra v1.9.1
